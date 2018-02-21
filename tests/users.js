@@ -10,13 +10,21 @@ define(["model"],function($model){
 			      "id": 0,
 				 "username":"admin",
 				 "password":"password",
-				 "user_type":"admin"
+				 "user_type":"admin",
+				 "access": [1,2,3,4],
+				 "profile":{
+					 full_name:"Charlotte Danielle Abbott"
+				 }
 			    },
 			    {
 			      "id": 1,
 			     "username":"user",
 				 "password":"password",
-				 "user_type":"user"
+				 "user_type":"user",
+				 "access": [1,2,3,4],
+				 "profile":{
+					 full_name:"Juan Dela Cruz"
+				 }
 			    }
 			  ]
 			}
